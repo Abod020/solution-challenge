@@ -1,0 +1,283 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.body{
+    background-color: #222831;
+}
+
+.menu{
+width: 100%;
+background-color: #222831;
+color: #fff;
+height: 60px;
+}
+
+.menu #logo a{
+float: left;
+width: fit-content;
+height: 30px;
+padding: 15px 30px;
+line-height: 30px;
+text-decoration: none;
+color: #fff;
+font-size:large;
+}
+
+
+.menu >ul{
+margin: 0%;
+padding: 0%;
+float: left;
+list-style-type: none;
+}
+
+.menu >ul >li{
+float: left;
+}
+
+.menu-item{
+display: inline-block;
+padding: 15px 20px;
+height: 30px;
+line-height: 30px;
+color: #fff;
+text-decoration: none;
+background-color: #222831;
+text-transform: uppercase;
+}
+
+.menu-item:hover{
+background-color:#F05454;
+}
+
+/*==============(style for classes)================================================*/
+
+.sub-content{
+position: absolute;
+top: 60px;
+overflow: hidden;
+background-color: #222831;
+max-height: 0;
+}
+
+.sub-content a{
+text-decoration: none;
+color: #fff;
+}
+
+.sub-drop{
+padding: 0;
+}
+
+.sub-drop ul{
+width: 100%;
+padding: 0; 
+margin: 0;
+list-style-type: none;
+}
+
+.sub-drop ul li a{
+    display: inline-block;
+padding: 10px 20px;
+}
+
+.sub-drop ul li :hover{
+background-color: #F05454;
+}
+
+.menu-item:focus{
+background-color: #F05454;
+}
+
+.menu ul li:hover .sub-content{
+max-height:400px;
+transition: max-height 0.6s ease-in;
+-webkit-transition: max-height 0.6s ease-in
+-moz-transition: max-height 0.6s ease-in
+}
+
+#rmenu{
+float: right;
+}
+/*===============(background)================================================*/
+.con img{
+width:100%;
+
+height: 100vh;
+background-attachment: fixed;
+
+animation:arrowbounce 1s alternate infinite;
+-moz-animation:arrowbounce 1s alternate infinite;
+/* Firefox */-webkit-animation:arrowbounce 1s alternate infinite;
+/* Safari and Chrome */-o-animation: arrowbounce 1s alternate infinite;
+
+
+
+}
+/*===============(end bakcground)================================================*/
+
+
+/*===============(sqr_About)================================================*/
+.sqr2{
+
+    box-sizing: content-box;
+    background-color: #ffffff;
+    background: #fff;
+    outline: 2px solid rgba( 0,0,0,.1) ;
+    outline-offset: -16px;
+    text-align: center;
+    box-shadow: 0 .5rem 1.5rem  rgba( 0,0,0,.1);        
+padding-top: 4rem;
+padding-bottom:8rem ;    
+}
+
+.sqr2 .text2 h1{
+text-transform: uppercase;   
+text-align: center;
+
+}
+
+.sqr2 .text2 h3{
+    padding-top: 20px;
+    }
+
+.sqr2 .text2 p{
+padding-top: 46px;
+font-size: large;
+
+font-family: 'Taviraj', serif;}
+.sqr2 .text2 a{
+color: #66b98a;
+}
+
+
+
+
+.sqr3{
+    position: initial;
+    box-sizing: content-box;
+    background-color: #000000;
+    background: #222831;
+    text-align: center;
+             
+padding-top:0.7rem ;
+padding-bottom:1.7rem ;
+}
+
+.sqr3 .text3 h4{
+text-transform: uppercase;   
+text-align: center;
+color: #fff;
+padding: 2px 4px;
+}
+.sqr3 .text3 h4 a{
+border:1px solid #fff;
+background-color: #F05454;
+text-decoration: none;
+color: #fff;
+padding: 1px 3px;
+}
+
+/*===============(end_Home page)================================================*/
+
+
+/*===============(start_class)================================================*/
+.stage-1{
+    background-color: #353b43;
+}
+
+.stage{
+background-color:#F05454;
+border-radius: 2px;
+color: #fff;
+border: 4px solid #222831;
+margin: 45px 600px ;
+padding: 6px 8px;
+}
+
+.stage h1{
+text-align: center;
+}
+
+
+
+
+
+.box{
+width: 290px;
+height: 250px;
+background-color: #F7F7F7;
+border: 2px solid gray;
+float: right;
+margin: 40px 30px;
+padding: 10px 5px;
+box-shadow: #000000;
+outline-offset: -16px;
+border-radius: 7px;
+}
+
+.box h2{
+text-align: center;
+padding: 5px 20px;
+color: #F05454;
+}
+
+.box img{
+width: 40%;
+height: 40%;
+margin: 10px 90px;
+float: right;
+position: center;
+border: 1px solid gray;
+}
+
+.box p{
+text-align: center;
+font-size: larger;
+color: #000000;
+font-family: Arial, Helvetica, sans-serif;
+}
+
+.box a{
+
+text-decoration: none;
+color: #fff;
+border: 1px solid #222831;
+background-color: #222831;
+float: right;
+border-radius: 5px;
+margin: 6px 25px ;
+padding: 10px 10px;
+align-items: center;
+}
+
+.box a:hover{
+background-color: #F05454;    
+}
+
+
+
+
+
+
+*/*/* Extra small devices (portrait phones, less than 576px)
+// No media query since this is the default in Bootstrap
+
+// Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) { ... }
+
+/*// Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) {
+nav{
+background-position: center;
+
+}
+
+}
+
+
+
+
+
